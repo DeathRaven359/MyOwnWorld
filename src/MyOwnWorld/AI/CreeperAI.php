@@ -523,7 +523,7 @@ class CreeperAI{
 							unset($this->plugin->Creeper[$zo->getId()]);
 							$level->removeEntity($level->getEntity($zo->getId()));
 							$e = new Explosion(new Position($zo->getX(), $zo->getY(), $zo->getZ(), $level),$this->bomb);
-							$e->explode();
+							//$e->explode();
 			
 						}
 						

@@ -34,7 +34,7 @@ class Creeper extends Monster implements Explosive {
         $pk->metadata = $this->dataProperties;
         $player->dataPacket($pk);
 
-        $player->addEntityMotion($this->getId(), $this->motionX, $this->motionY, $this->motionZ);
+        
 
         parent::spawnTo($player);
     }
