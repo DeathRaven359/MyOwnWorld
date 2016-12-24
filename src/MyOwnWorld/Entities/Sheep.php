@@ -49,10 +49,10 @@ class Sheep extends Animal{
 						$drops[] = ItemItem::get(ItemItem::IRON_INGOT, 0, 1);
 						break;
 					case 1:
-						$drops[] = ItemItem::get(ItemItem::CARROT, 0, 1);
+						$drops[] = ItemItem::get(ItemItem::GOLD_INGOT, 0, 1);
 						break;
 					case 2:
-						$drops[] = ItemItem::get(ItemItem::POTATO, 0, 1);
+						$drops[] = ItemItem::get(ItemItem::GOLD_INGOT, 0, 1);
 						break;
 				}
 			}
