@@ -48,10 +48,10 @@ class Chicken extends Animal{
 			if(\mt_rand(0, 199) < 5){
 				switch(\mt_rand(0, 2)){
 					case 0:
-						$drops[] = ItemItem::get(ItemItem::IRON_INGOT, 0, 1);
+						$drops[] = ItemItem::get(ItemItem::GOLD_INGOT, 0, 1);
 						break;
 					case 1:
-						$drops[] = ItemItem::get(ItemItem::CARROT, 0, 1);
+						$drops[] = ItemItem::get(ItemItem::GOLD_INGOT, 0, 1);
 						break;
 					case 2:
 						$drops[] = ItemItem::get(ItemItem::POTATO, 0, 1);
